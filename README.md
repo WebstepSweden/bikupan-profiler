@@ -12,13 +12,24 @@ Just run `mvn clean install` from the root of the project
 
 ## Start server
 
-Just run the `RunBootstrap` class within your IDE or you can just or from the console run
+Just run the
+
+`RunBootstrap`
+
+class within your IDE or you can just or from the console run
+
 `java -jar bikupan-service-0.0.1-SNAPSHOT-standalone.jar server ../src/test/resources/bikupan-service.yml`
 
 
 ## Test server
 
-Point your browser to `http://localhost:3010` or ´curl -v http://localhost:3010´ for fetching the root page.
+Point your browser to
+
+`http://localhost:3010`
+
+or
+
+`curl -v http://localhost:3010` for fetching the root page.
 Will return:
 
 ```
@@ -45,7 +56,13 @@ Will return:
 
 ```
 
-Point your browser to `http://localhost:3010/api/computer/says` or `curl -v http://localhost:3010/api/computer/says` for fetching the API
+Point your browser to
+
+`http://localhost:3010/api/computer/says`
+
+or
+
+`curl -v http://localhost:3010/api/computer/says` for fetching the API
 Will return:
 
 ```
