@@ -6,8 +6,8 @@
     <prerequisites>
         <maven>3.0.0</maven>
     </prerequisites>
-    <groupId>se.diversify</groupId>
-    <artifactId>bikupan-service</artifactId>
+    <groupId>se.diversify.bikupan</groupId>
+    <artifactId>profiler-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
