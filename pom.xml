@@ -6,7 +6,7 @@
     <prerequisites>
         <maven>3.0.0</maven>
     </prerequisites>
-    <groupId>se.diversify.zorn</groupId>
+    <groupId>se.diversify</groupId>
     <artifactId>bikupan-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
