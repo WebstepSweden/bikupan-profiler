@@ -174,4 +174,11 @@
 
     </dependencies>
 
+    <scm>
+        <connection>scm:git:ssh://github.com/Diversify/bikupan.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/Diversify/bikupan.git</developerConnection>
+        <url>https://github.com/Diversify/bikupan</url>
+        <tag>HEAD</tag>
+    </scm>
+
 </project>
