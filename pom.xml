@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <prerequisites>
@@ -8,7 +7,7 @@
     </prerequisites>
     <groupId>se.diversify.bikupan</groupId>
     <artifactId>profiler-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2</version>
 
     <properties>
         <application.main.class>se.diversify.bikupan.BikupanServiceApplication</application.main.class>
@@ -86,10 +85,8 @@
                             <shadedArtifactAttached>true</shadedArtifactAttached>
                             <shadedClassifierName>standalone</shadedClassifierName>
                             <transformers>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
-                                <transformer
-                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer" />
+                                <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
                                     <mainClass>${application.main.class}</mainClass>
                                 </transformer>
                             </transformers>
@@ -178,7 +175,7 @@
         <connection>scm:git:ssh://github.com/Diversify/bikupan.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/Diversify/bikupan.git</developerConnection>
         <url>https://github.com/Diversify/bikupan</url>
-        <tag>HEAD</tag>
+        <tag>profiler-service-0.0.2</tag>
     </scm>
 
 </project>
