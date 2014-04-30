@@ -12,11 +12,11 @@ Just run `mvn clean install` from the root of the project
 
 ## Start server
 
-Just run the
+Just run the:
 
 `RunBootstrap`
 
-class within your IDE or you can just or from the console run
+class within your IDE or you can just run it from the console:
 
 `java -jar bikupan-service-0.0.1-SNAPSHOT-standalone.jar server ../src/test/resources/bikupan-service.yml`
 
@@ -42,16 +42,12 @@ Will return:
 < Content-Length: 235
 <
 <!doctype html>
-<html lang="en" ng-app="LotteryAdmin">
 <head>
     <meta charset="utf-8">
     <title>Bikupan</title>
-    <link rel="stylesheet" href="app/css/las.css"/>
 </head>
 <body>
 	Bikupan is here
-<!--Components-->
-
 </body>
 </html>
 
