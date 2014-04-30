@@ -7,7 +7,7 @@
     </prerequisites>
     <groupId>se.diversify.bikupan</groupId>
     <artifactId>profiler-service</artifactId>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <properties>
         <application.main.class>se.diversify.bikupan.BikupanServiceApplication</application.main.class>
@@ -175,7 +175,7 @@
         <connection>scm:git:ssh://github.com/Diversify/bikupan.git</connection>
         <developerConnection>scm:git:ssh://git@github.com/Diversify/bikupan.git</developerConnection>
         <url>https://github.com/Diversify/bikupan</url>
-        <tag>profiler-service-0.0.2</tag>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
