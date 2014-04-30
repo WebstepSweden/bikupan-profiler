@@ -30,6 +30,7 @@ Point your browser to
 or
 
 `curl -v http://localhost:3010` for fetching the root page.
+
 Will return:
 
 ```
