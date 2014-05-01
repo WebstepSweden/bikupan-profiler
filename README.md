@@ -21,65 +21,9 @@ class within your IDE or you can just run it from the console:
 `java -jar bikupan-service-0.0.1-SNAPSHOT-standalone.jar server ../src/test/resources/bikupan-service.yml`
 
 
-## Test server
+## API documentation
 
 Point your browser to
 
-`http://localhost:3010`
+`http://localhost:3010/api-ui`
 
-or
-
-`curl -v http://localhost:3010` for fetching the root page.
-
-Will return:
-
-```
-< HTTP/1.1 200 OK
-< Date: Wed, 30 Apr 2014 12:11:18 GMT
-< Last-Modified: Wed, 30 Apr 2014 10:44:00 GMT
-< Content-Type: text/html; charset=UTF-8
-< ETag: "d81de5f14034c30bb15bc2e302f90a73"
-< Content-Length: 235
-<
-<!doctype html>
-<head>
-    <meta charset="utf-8">
-    <title>Bikupan</title>
-</head>
-<body>
-	Bikupan is here
-</body>
-</html>
-
-```
-
-Point your browser to
-
-`http://localhost:3010/api/computer/says`
-
-or
-
-`curl -v http://localhost:3010/api/computer/says` for fetching the API
-Will return:
-
-```
-> GET /api/computer/says HTTP/1.1
-> User-Agent: curl/7.30.0
-> Host: localhost:3010
-> Accept: */*
->
-< HTTP/1.1 200 OK
-< Date: Wed, 30 Apr 2014 12:12:04 GMT
-< Content-Type: application/json; charset=UTF-8
-< Vary: Accept-Encoding
-< Transfer-Encoding: chunked
-<
-* Connection #0 to host localhost left intact
-{"message":"Says hello to Uzi"}
-```
-
-## Front development
-
-Web root is located at `src/main/resources/assets`
-
-## Backend development
