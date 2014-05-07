@@ -1,7 +1,13 @@
-# Bikupan
+# Bikupan-profile
 
 This is only a first draft of the micro service architecture. Will implement a few methods stubbed methods within
 the next days.
+
+## Environments
+
+- Version control server: [GitHub](https://github.com/Diversify/bikupan-profiler)
+- Build server: [Cloudbees](https://diversify.ci.cloudbees.com/job/Bikupan-profiler/)
+- 
 
 ## Build
 - You need JDK 1.8
@@ -18,7 +24,7 @@ Just run the:
 
 class within your IDE or you can just run it from the console:
 
-`java -jar bikupan-service-0.0.1-SNAPSHOT-standalone.jar server ../src/test/resources/bikupan-service.yml`
+`java -jar bikupan-profile-service-0.0.3-SNAPSHOT-standalone.jar server ../src/test/resources/bikupan-service.yml`
 
 
 ## API documentation
