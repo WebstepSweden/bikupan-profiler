@@ -8,6 +8,8 @@ the next days.
 - Version control server: [GitHub](https://github.com/Diversify/bikupan-profiler)
 - Build server: [Cloudbees](https://diversify.ci.cloudbees.com/job/Bikupan-profiler/)
 - Scrum board: [Trello](https://trello.com/b/4eRZhdcp/bikupan)
+- Skype group: [bikupan@diversify](skype:?chat&blob=Xjp4yd4lgklwq965NXTyqNcnZpFoqWTxEy2-EVD2iMP00J8Th1RFa1eG319xpNP9x7r3iPdEwp_EyN_bnlMA8AZ3qj1fwAyhhIM)
+
 
 ## Build
 - You need JDK 1.8
